@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MaheshkApp</title>
-  <style>
-    h1 {
-      color: whitesmoke;
-      font-family: Verdana;
-      font-size: 200%;
-    }
+  <meta charset="UTF-8">
+  <title>Stylish Social Buttons</title>
 
-    img {
-      align: center;
-    }
-  </style>
+
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body background="http://eskipaper.com/images/high-resolution-backgrounds-9.jpg">
-<h1 align="center">This site is under active development</h1>
+<body>
+<%= image_tag('Mahesh_K.png', class: 'me') %>
 
-<%= image_tag 'giphy.gif', {height: 45} %>
+<div class="social-btns">
+  <a class="btn facebook" href="https://www.facebook.com/maheshcet" target='_blank'><i class="fa fa-facebook"></i></a>
+  <a class="btn twitter" href="https://twitter.com/maheshcet" target='_blank'><i class="fa fa-twitter"></i></a>
+  <a class="btn google" href="https://plus.google.com/u/0/+MaheshKrishnaKumar1987" target='_blank'><i class="fa fa-google"></i></a>
+  <a class="btn linkedin" href="https://www.linkedin.com/in/mahesh-k-9076a31a/" target='_blank'><i class="fa fa-linkedin"></i></a>
+  <a class="btn github" href="https://github.com/mahesh-krishnakumar"><i class="fa fa-github"></i></a>
+</div>
 </body>
 </html>
